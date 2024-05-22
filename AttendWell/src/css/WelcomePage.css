@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+        margin: 0;
+            padding: 0;
+}
+body  .welcome {
+        /* background: linear-gradient(145deg, #FF6868 24%, #FFBB64 85%); */
+    /* background-color: #fefffa; */
+    /* height: 100vh; */
+    /* max-width: 100vw; */
+    /* overflow-x: hidden; */
+
+}
+.welcome .mainHead{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 5vh;
+        font-size: 3rem;
+        color: #FF6868  ;
+}
+.welcome .mainPara{
+    /* font-weight: "400"; */
+    margin-top: 5vh;
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        margin-left: 3vw;
+        color: #551918;
+
+}
+.welcome .leftDiv{
+}
+.spannn{
+    font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-size: 3.5rem;
+        font-style: normal;
+   color: #FFBB64 !important;
+}
+.btndiv{
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+.startbtn{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.5rem;
+        background-color: #FF6868;
+        color: #DCFFB7;
+        border: none;
+        padding: 1vh 2vw;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.startbtn:hover{
+    color: #FF6868;
+    background-color: #FFEAA7;
+    border: 2px solid #FF6868;
+}

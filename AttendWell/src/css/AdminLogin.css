@@ -1,0 +1,82 @@
+.adminloghead{
+    background-color: #673d3d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* font-family: "Roboto", sans-serif; */
+            /* font-family: "Playfair Display", serif; */
+            font-family: "Noto Serif", serif;
+            /* font-family: "Poetsen One", sans-serif; */
+}
+.registerboxinp {
+    border: 2px solid rgb(19, 88, 99) !important;
+    font-size: 1.2rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+}
+
+.labeltxt {
+    color: #081548;
+    /* font-size: 1rem; */
+    font-family: "Noto Serif", serif;
+}
+.adminloginbtn{
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #673d3d;
+    color: white;
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.adminloginbtn:hover{
+    color: #673d3d;
+    background-color: white;
+    border: 2px solid #673d3d;
+}
+.RegisterBtnadminpage{
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background-color: #673d3d;
+    color: white;
+    border: none;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.registerSugg{
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #673d3d;
+    margin-top: 1vh;
+}
+.guestbtn{
+    /* 3d6740 */
+        font-family: "Noto Serif", serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+            background-color: #3d6740;
+            color: white;
+            border: none;
+            padding: 1vh 2vw;
+            border-radius: 10px;
+            cursor: pointer;
+}
+.guestbtn:hover{
+    color: #3d6740;
+    background-color: white;
+    border: 2px solid #3d6740;
+}
+.RegisterBtnadminpage:hover{
+    color: #673d3d;
+    background-color: white;
+    border: 2px solid #673d3d;
+}

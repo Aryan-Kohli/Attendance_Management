@@ -1,0 +1,130 @@
+ /* font-family: "Roboto", sans-serif; */
+ /* font-family: "Playfair Display", serif; */
+ /* font-family: "Noto Serif", serif; */
+ /* font-family: "Poetsen One",sans-serif; */
+
+.tablerow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    /* cursor: pointer; */
+
+    gap:25px;
+    /* overflow: scroll; */
+}
+.tablehead{
+    width:100px;
+}
+.mainn{
+    margin-left: 8vw;
+}
+.subData2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    color: #351b13;
+    cursor: pointer;
+    border: 1px solid #26272f;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    padding : 1vh 1vw;
+}
+.subData2:hover{
+    background-color: #26272f;
+    color: #d6c889;
+    box-shadow: 4px 5px 2px black;
+}
+.datepicker{
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    color: #351b13;
+    cursor: pointer;
+    border: 3px solid #26272f;
+    border-radius: 10px;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    padding : 1vh 1vw;
+    /* text-align: center; */
+    width:200px;
+}
+.datepicker:hover{
+    background-color: #26272f;
+    color: #d6c889;
+    box-shadow: 4px 5px 2px black;
+}
+.btns3{
+        color: #d6c889;
+            background-color: #26272f;
+            font-size: 1.2rem;
+            font-weight: 800;
+            font-family: "Noto Serif", serif;
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+}
+.btns3:hover{
+    box-shadow: 6px 6px 5px black ;
+}
+.tableheadmark{
+    font-size: 1.2rem;
+        font-family: "Poetsen One",sans-serif;
+        color: #26272f;
+        padding: 0vh 3vw;
+}
+.tabledatamark{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    color: #26272f;
+    padding: 0vh 3vw;
+}
+.checkboxmark{
+    width:2vw;
+}
+/* td {
+    border-bottom: 8px solid black;
+}
+th {
+    border-bottom: 8px solid black;
+} */
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #26272f;
+    background-color: #d6c889;
+}
+
+.tableheadsee{
+    width: 100px;
+    margin-left:3vw;
+    font-size: 1rem;
+    font-weight: "bold";
+    font-family: "Poetsen One", sans-serif;
+    color: #26272f;
+    /* border-right: 3px solid #26272f;  */
+    /* border-bottom: 3px solid #26272f;  */
+}
+td{
+
+}
+.tabledatasee{
+    width: 100px;
+    margin-left:3vw;
+    font-size: 1rem;
+        font-weight: 700;
+        font-family: "Noto Serif", serif;
+        color: #26272f;
+        /* border-right: 3px solid #26272f; */
+
+}
+.tablesee{
+    overflow-x: scroll;
+}
+.faltudiv{
+    height:10vh;
+}

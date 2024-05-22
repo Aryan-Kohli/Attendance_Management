@@ -1,0 +1,119 @@
+ /* font-family: "Roboto", sans-serif; */
+ /* font-family: "Playfair Display", serif; */
+ /* font-family: "Noto Serif", serif; */
+ /* font-family: "Poetsen One",sans-serif; */
+.adminclasstop{
+    background-color: #26272f;
+    padding-top:4vh;
+    padding-bottom: 2vh;
+    padding-inline: 3vw;
+    /* border-bottom-left-radius: 140px; */
+    /* border-bottom-right-radius: 140px; */
+}
+.Subjecthead{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Poetsen One",sans-serif;
+    color: #26272f;
+}
+.head2{
+    font-size: 1.2rem;
+        font-weight: 700;
+        /* font-weight: "400"; */
+font-family: "Noto Serif", serif;
+        color: #26272f;
+}
+.StudentHead{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Poetsen One", sans-serif;
+   
+        color: #d6c889;
+            background-color: #26272f;
+            
+}
+.subData{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    color: #351b13;
+
+}
+.dashbtn{
+    color: #d6c889;
+    background-color: #26272f;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dashbtn:hover{
+    /* background-color: #ffffff;
+    color: #26272f;
+    border:2px solid #26272f; */
+    box-shadow:10px 10px 10px 0px black ;
+}
+.mybtn2{
+    font-weight: 600;
+    border-width: 3px;
+    padding:1vh 1vw;
+    font-size: 1rem;
+}
+.studentdata{
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    color: #26272f;
+    padding: 2vh 2vw;
+}
+.topline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btns2{
+    color: #d6c889;
+    background-color: #26272f;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: "Noto Serif", serif;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btns2:hover{
+    /* background-color: #ffffff;
+    color: #26272f;
+    border:2px solid #26272f; */
+    box-shadow:10px 10px 10px 0px black ;
+}
+.bottomline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topdata{
+    font-size: 1.6rem;
+    font-weight: 100;
+    font-family: "Poetsen One",sans-serif;
+    color: #d6c889;
+    /* border-width:10px; */
+}
+@media screen and (max-width: 440px){
+    .topdata{
+        font-size: 1.2rem;
+    }
+    .topline{
+        flex-direction: column;
+    }
+    .bottomline{
+        flex-direction: column;
+    }
+    
+}

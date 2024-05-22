@@ -1,0 +1,85 @@
+.formDiv{
+    margin-left: 5vw;
+}
+.formhead{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    /* color: #551918; */
+    color: hsl(0, 0%, 100%);
+    text-shadow: #f6f8ff;
+    font-style: normal;
+    font-size: 2.5rem;
+    /* margin-top: 8vh; */
+    margin-left: 5vw;
+}
+.registerbtn{
+     font-family: "Poetsen One", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 5vh;
+        font-size: 1.3rem;
+        color: #f2f2f2;
+        background-color: rgb(97, 162, 227);
+        border:2px solid #fefefe;
+        padding: 1vh 2vw;
+        border-radius: 10px;
+}
+.registerbtn:hover{
+    color: #6ec3df;
+    background-color: #f2f2f2;
+    border: 2px solid rgb(97, 162, 227);
+            cursor: pointer;
+}
+.inputField{
+    padding: 8px 10px;
+    font-size: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:2px solid black;
+}
+.registerBtn{
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 0.5vh;
+}
+.registerboxinp{
+    border:2px solid rgb(19, 88, 99) !important;
+    font-size: 1.2rem;
+                font-family: "Noto Serif", serif;
+                font-weight: 500;
+}
+.labeltxt{
+    color:#081548;
+    /* font-size: 1rem; */
+            font-family: "Noto Serif", serif;
+}
+.registerLeft{
+    /* background-color: rgb(231, 234, 230); */
+    /* background-color: rgb(241, 252, 160); */
+    /* background: linear-gradient(140deg, #ffffff 10%, #fee3e3 25%, #ffffff 50%); */
+    /* background:linear-gradient( #7d4f4f %); ; */
+    background-color: #7d4f4f;
+    padding-top:50px;
+    padding-left:3vw;
+    padding-right:3vw;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 88, 99);
+    margin-top: 1vh;
+}
+.registerright{
+background: linear-gradient(180deg,#ffffff 15%, #fee3e3 45%, #ffffff 50%);
+            
+            padding-top: 50px;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            padding-bottom: 30px;
+            border-radius: 10px;
+            /* border: 2px solid rgb(19, 88, 99); */
+            margin-top: 1vh;
+}
+.alreadyhead{
+    color: rgb(0, 0, 0);
+                font-family: "Poetsen One", sans-serif;
+}

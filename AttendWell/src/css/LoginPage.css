@@ -1,0 +1,56 @@
+
+.loginEle{
+    border:3px solid #FF6868;
+    text-align: center;
+    gap:10px;
+    border-radius: 10px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-top: 1.2vh;
+    color:#551918;
+    font-size: 1.5rem;
+            font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        cursor: pointer;
+}
+.loginPage .chooseOne{
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.loginEle:hover{
+    color: white;
+        background-color: #FF6868;
+        border: 2px solid #FF6868;
+
+}
+.chooseoneop{
+    /* font-family: "Roboto", sans-serif; */
+        /* font-family: "Playfair Display", serif; */
+        /* font-family: "Noto Serif", serif; */
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            margin-top: 5vh;
+            font-size: 3rem;
+            color: #FF6868;
+}
+.backbtn{
+    font-family: "Poetsen One", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 5vh;
+        font-size: 1.3rem;
+        color: #FF6868;
+        border:2px solid #FF6868;
+        background-color: white;
+        padding: 1vh 2vw;
+        border-radius: 10px;
+}
+.backbtn:hover{
+    color: white;
+    background-color: #FF6868;
+    border: 2px solid #FF6868;
+            cursor: pointer;
+
+}
