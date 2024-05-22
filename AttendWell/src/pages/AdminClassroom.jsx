@@ -3,6 +3,8 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "../css/AdminClassroom.css";
+import AllList from "../AllList";
+import { PDFDownloadLink } from "@react-pdf/renderer";
 export default function ClassroomMainPage() {
   const navigate = useNavigate();
   const [classdata, setclassdata] = useState(null);
@@ -194,10 +196,32 @@ export default function ClassroomMainPage() {
               + Add Subject
             </button>
           </div>
-          <div className="offset-md-4 col-md-4 mt-3">
+          <div className=" col-md-4 mt-3">
             <button type="button" className="btns2" onClick={addStudents}>
               + Add Student
             </button>
+          </div>
+          <div className="col-md-4 mt-4">
+            {classdata && (
+              <PDFDownloadLink
+                document={<AllList classroom={classdata} students={students} />}
+                fileName="List.pdf"
+                style={{
+                  color: "#d6c889",
+                  backgroundColor: "#26272f",
+                  fontSize: 16,
+                  fontWeight: "800",
+                  borderRadius: 10,
+                  paddingBlock: 10,
+                  paddingInline: 20,
+                  border: "none",
+                  textDecoration: "none",
+                  fontFamily: "Noto Serif",
+                }}
+              >
+                Download list
+              </PDFDownloadLink>
+            )}
           </div>
         </div>
       </div>

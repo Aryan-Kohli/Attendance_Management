@@ -33,9 +33,27 @@ const styles = StyleSheet.create({
     marginTop: 5,
     borderRadius: 10,
   },
+  topdiv3: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    backgroundColor: "#E4E4E4",
+    padding: 10,
+    marginLeft: 10,
+    marginRight: 10,
+    marginBottom: 10,
+    marginTop: 5,
+    borderRadius: 10,
+  },
   toptxt: {
     fontSize: 20,
     fontWeight: "bold",
+  },
+  toptxt2: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 15,
   },
   studentbox: {
     flexDirection: "row",
@@ -56,7 +74,7 @@ const styles = StyleSheet.create({
     width: 150,
   },
 });
-export default function AllList({ classroom }) {
+export default function AllList({ classroom, students }) {
   return (
     <Document>
       <Page size="A4" style={styles.page}>
@@ -74,26 +92,33 @@ export default function AllList({ classroom }) {
               Total Subjects : {classroom.Subjects.length}
             </Text>
           </View>
-          <View style={styles.topdiv2}>
+          <View style={styles.topdiv3}>
+            <Text style={styles.toptxt2}>Subjects List:</Text>
             {classroom.Subjects.length > 0 &&
               classroom.Subjects.map((subject) => {
                 return (
-                  <Text style={styles.toptxt} key={subject.subjectName}>
-                    {subject.subjectName}
+                  <Text style={styles.subject} key={subject}>
+                    {subject}
                   </Text>
                 );
               })}
           </View>
           <View>
-            {classroom.Students.length > 0 &&
-              classroom.Students.map((student) => {
+            <Text style={styles.toptxt2}>Students List:</Text>
+
+            {students.length > 0 ? (
+              students.map((student, index) => {
                 return (
                   <View style={styles.studentbox} key={student.enrollNo}>
+                    <Text style={styles.stud_roll}>{index}</Text>
                     <Text style={styles.stud_roll}>{student.enrollNo}</Text>
                     <Text style={styles.stud_name}>{student.name}</Text>
                   </View>
                 );
-              })}
+              })
+            ) : (
+              <Text>No student is found</Text>
+            )}
           </View>
         </View>
       </Page>
