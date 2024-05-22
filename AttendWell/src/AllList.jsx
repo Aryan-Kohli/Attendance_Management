@@ -74,19 +74,26 @@ export default function AllList({ classroom }) {
               Total Subjects : {classroom.Subjects.length}
             </Text>
           </View>
+          <View style={styles.topdiv2}>
+            {classroom.Subjects.length > 0 &&
+              classroom.Subjects.map((subject) => {
+                return (
+                  <Text style={styles.toptxt} key={subject.subjectName}>
+                    {subject.subjectName}
+                  </Text>
+                );
+              })}
+          </View>
           <View>
-            {detainedList.length > 0 ? (
-              detainedList.map((student) => {
+            {classroom.Students.length > 0 &&
+              classroom.Students.map((student) => {
                 return (
                   <View style={styles.studentbox} key={student.enrollNo}>
                     <Text style={styles.stud_roll}>{student.enrollNo}</Text>
                     <Text style={styles.stud_name}>{student.name}</Text>
                   </View>
                 );
-              })
-            ) : (
-              <Text>No student is detained</Text>
-            )}
+              })}
           </View>
         </View>
       </Page>
