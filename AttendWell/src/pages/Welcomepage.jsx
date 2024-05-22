@@ -44,7 +44,7 @@ export default function Welcomepage() {
         </div>
         <div className="col-md-4">
           <div>
-            {/* <Lottie loop={true} animationData={attend_ani} />{" "} */}
+            <Lottie loop={true} animationData={attend_ani} />{" "}
           </div>
         </div>
       </div>
