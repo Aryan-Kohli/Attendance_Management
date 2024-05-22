@@ -5,6 +5,8 @@ import Cookies from "js-cookie";
 import DatePicker from "react-datepicker";
 import "../css/FacultyClassroom.css";
 import "react-datepicker/dist/react-datepicker.css";
+import { PDFViewer, PDFDownloadLink } from "@react-pdf/renderer";
+import DetainedList from "../DetainedList.jsx";
 export default function FacultyClassroom() {
   const [classroom, setClassroom] = useState(null);
   const [subjects, setSubjects] = useState([]);
@@ -12,6 +14,7 @@ export default function FacultyClassroom() {
   const [startDate, setStartDate] = useState(new Date());
   const [array, setArray] = useState(Array(0).fill(false));
   const [students, setStudents] = useState([]);
+  const [seedetained, setSeeDetained] = useState(false);
   const updateArrayPosition = (index) => {
     setArray((prevArray) =>
       prevArray.map((item, i) => (i === index ? !item : item))
@@ -181,6 +184,7 @@ export default function FacultyClassroom() {
       setAllDates(arr);
     }
   }
+
   return (
     <>
       <div className="container-fluid">
@@ -315,6 +319,15 @@ export default function FacultyClassroom() {
             <div className="row mt-4">
               <h4 className="Subjecthead">Students list:</h4>
             </div>
+            <button
+              type="button"
+              className="btns3"
+              onClick={() => {
+                setSeeDetained(!seedetained);
+              }}
+            >
+              See/Download Detained List
+            </button>
           </div>
           <div className="container tablesee">
             <table>
@@ -360,6 +373,22 @@ export default function FacultyClassroom() {
         <button type="button" className="btns3" onClick={logout}>
           Logout
         </button>
+
+        {classroom && selectedSubject && seedetained && (
+          <div className="row">
+            <div className="container mt-4">
+              <PDFViewer
+                style={{ height: "80vh", width: "80vw" }}
+                fileName={`DetainedList_${selectedSubject}.pdf`}
+              >
+                <DetainedList
+                  classroom={classroom}
+                  selectedSubject={selectedSubject}
+                />
+              </PDFViewer>
+            </div>
+          </div>
+        )}
       </div>
       <div className="faltudiv"></div>
     </>
