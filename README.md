@@ -10,7 +10,7 @@
 
 #### Step 4: Students can view their attendance by entering their name, class name & Institute name.
 
-![Login Screen](./AttendWell/src/assets/login.png)
+![Login Screen](./AttendWell/src/assets/logins.png)
 
 ## Features
 
