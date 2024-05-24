@@ -15,8 +15,18 @@
 ## Features
 
 #### 1. Administrators can easily download the list of their students of each class.
+
 ![Login Screen](./AttendWell/src/assets/download_list.png)
 
 #### 2. Faculty Members can easily download the list of detained Students.
+
 ![Login Screen](./AttendWell/src/assets/Faculty_download.png)
 ![Login Screen](./AttendWell/src/assets/detainedPdf.png)
+
+## Website OverView
+
+![Login Screen](./AttendWell/src/screenshots/s1.png)
+![Login Screen](./AttendWell/src/screenshots/s2.png)
+![Login Screen](./AttendWell/src/screenshots/s3.png)
+![Login Screen](./AttendWell/src/screenshots/s4.png)
+![Login Screen](./AttendWell/src/screenshots/s5.png)
