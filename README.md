@@ -11,7 +11,7 @@
 <h4>Step 4: Students can view their attendance by entering their name , class name & Institute name.
 </h4>
 <!-- <img src="./AttendWell/src/assests/logins.png" alt=""/> -->
-![wdbw](./AttendWell/src/assests/login.png)
+![wdbw](./AttendWell/src/assests/logins.png)
 <h2>Features</h2>
 <h4>
   
