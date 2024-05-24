@@ -141,7 +141,7 @@ export default function AdminRegister() {
                     onChange={(e) => setOrgname(e.target.value)}
                   />
                   <label className="labeltxt" for="floatingOrgname">
-                    Organization name
+                    School / Institute name
                   </label>
                 </div>
               </div>

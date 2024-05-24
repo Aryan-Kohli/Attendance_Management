@@ -14,7 +14,8 @@ import AdminMainPage from "./pages/AdminMainPage.jsx";
 import AdminClassroom from "./pages/AdminClassroom.jsx";
 import FacultyClassroom from "./pages/FacultyClassroom.jsx";
 import StudentDashboard from "./pages/StudentDashboard.jsx";
-axios.defaults.baseURL = "http://localhost:3000";
+// axios.defaults.baseURL = "http://localhost:3000";
+axios.defaults.baseURL = "https://attendwell-backend.onrender.com";
 // axios.defaults.headers.post["Content-Type"] = "application/json";
 // axios.defaults.withCredentials = true;
 function App() {
